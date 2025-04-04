@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <div class="w-full h-[100vh] bg-grey-600 flex flex-col justify-center items-center ">
+
+      <div class="w-[60%] b-2 rounded-md bg-red-400 p-8 flex flex-col items-center justify-center">
+          <div class="w-[100%] h-auto flex justify-between">
+            <div class="w-[90%] bg-gray-300 h-8 rounded-md overflow-hidden">
+              <div class="downloadBar h-full bg-blue-500 transition-all duration-300 ease-in-out" style="width: 0%;"></div>
+            </div>
+            <p class="text-[22px] font-semibold downloadPercentage ">0%</p>
+          </div>
+          <div class="w-[100%] h-auto flex justify-between mt-4">
+            <p class="text-[22px] font-semibold py-2 px-4 bg-blue-200 rounded-md ">song.mp3</p>
+            <button class=" download text-[22px] font-semibold py-2 px-4 bg-slate-800 rounded-md text-white">Download</button>
+          </div>
+      </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
